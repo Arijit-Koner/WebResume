@@ -1,0 +1,232 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    line-height: 1;
+}
+.container
+{
+    width: 70%;
+    margin: auto;
+    border: 5px double black;
+    padding: 20px 10px 20px 10px;
+}
+/*  */
+
+.MainSection
+{
+    width: 100%;
+    /*border: 2px solid blue;*/
+    display: flex;
+}
+.AboutSelf
+{
+    width: 70%;
+    padding: 20px;
+    /* border: 2px dotted black; */
+}
+
+#part
+{
+    display: flex;
+    width: 100%;
+    /* border: 1px dotted black; */
+}
+.logo
+{
+    width: 10%;
+}
+.details
+{
+    width: 90%;
+}
+.logoImg
+{
+    height: 30px;
+    min-width: 20px;
+}
+.Name
+{
+    padding-bottom: 10px;
+}
+.details
+{
+    padding-top: 6px;
+}
+
+.passport-img
+{
+    width: 30%;
+    padding-left: 60px; 
+    padding-top: 10px;
+    /* border: 1px solid red; */
+}
+.passport
+{
+    height: 170px;
+    /* width: 70%; */
+    padding: 3px;
+    /* min width so that someone cannot minimize below that size*/
+    min-width: 100px;
+    border : 2px dashed rgb(56, 56, 56);
+}
+/*  */
+
+.separator
+{
+    padding: 10px;
+    
+}
+/*  */
+
+.Section-1
+{
+    padding-left: 20px;
+}
+.ObjHeading
+{
+    color: rgb(22, 22, 145);
+}
+.ObjDetails
+{
+    text-align: justify;
+    /* font-weight: lighter; */
+    width: 98%;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+/*  */
+
+.Section-2
+{
+    padding-left: 20px;
+}
+.WorkExHeading
+{
+    color: rgb(22, 22, 145);
+}
+.WorkExBody
+{
+    width: 100%;
+    display: flex;
+    padding-top: 8px;
+    /* border: 1px dotted black; */
+}
+.leftpart
+{
+    width: 25%;
+    padding-left: 20px;
+    color: rgb(43, 42, 42);
+    /* border: 1px dotted black; */
+}
+.rightpart
+{
+    width: 75%;
+    /* border: 1px dotted black; */
+}
+/*  */
+
+.Section-3
+{
+    padding-left: 20px;
+}
+.AcadsHeading
+{
+    color: rgb(22, 22, 145);
+}
+.AcadsDetails
+{
+    padding-left: 20px;
+    padding-top: 8px;
+}
+table,tr,th,td
+{
+    border: 1px solid black;
+    padding-inline: 10px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+/*  */
+
+.Section-4
+{
+    padding-left: 20px;
+}
+.SkillHeading
+{
+    color: rgb(22, 22, 145);
+}
+.SkillBody
+{
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.lang
+{
+    display: flex;
+}
+.lang div:first-child{
+    width: 20%;
+}
+.lang div:last-child{
+    width: 80%;
+}
+.progressbar{
+    width: 90%;
+}
+/*  */
+
+.Section-5
+{
+    padding-left: 20px;
+}
+.ProjectHeading
+{
+    color: rgb(22, 22, 145);
+}
+.ProjectBody
+{
+    padding-top: 8px;
+    padding-left: 20px;
+    width: 98%;
+    text-align: justify;
+}
+.Project2
+{
+    padding-top: 8px;
+}
+/*  */
+
+.Section-6
+{
+    padding-left: 20px;
+}
+.AchHeading
+{
+    color: rgb(22, 22, 145);
+}
+.AchBody
+{
+    padding-top: 8px;
+    padding-left: 20px;
+}
+.Heading
+{
+    font-style: italic;
+}
+/*  */
+
+#Heading:hover{      
+    height: 30%;
+    width: 20%;
+    padding: 2px 0px 2px 0px;
+    color: white;
+    text-align: center;
+    background-color: #27c4eb;
+    background-image: linear-gradient(270deg, #27c4eb 21%, #911ace 100%);
+}
