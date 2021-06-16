@@ -12,7 +12,7 @@ body{
 {
     width: 70%;
     margin: auto;
-    border: 5px double black;
+    border: 6px double rgb(40, 105, 202);
     padding: 20px 10px 20px 10px;
 }
 /*  */
@@ -67,12 +67,16 @@ body{
 }
 .passport
 {
-    height: 170px;
+    height: 160px;
     /* width: 70%; */
     padding: 3px;
     /* min width so that someone cannot minimize below that size*/
     min-width: 100px;
     border : 2px dashed rgb(56, 56, 56);
+}
+
+.passport:hover{
+    border : 3px dashed rgb(40, 105, 202);
 }
 /*  */
 
@@ -231,7 +235,6 @@ table,tr,th,td
     width: 30%;
     padding: 2px 0px 2px 0px;
     color: white;
-    text-align: center;
-    background-color: #27c4eb;
-    background-image: linear-gradient(270deg, #27c4eb 21%, #911ace 100%);
+    text-align: center;   
+    background: linear-gradient(270deg, #27c4eb 21%, #911ace 100%);
 }
