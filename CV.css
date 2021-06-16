@@ -72,7 +72,7 @@ body{
     padding: 3px;
     /* min width so that someone cannot minimize below that size*/
     min-width: 100px;
-    border : 2px dashed rgb(56, 56, 56);
+    border : 2px dashed rgb(40, 105, 202);
 }
 
 .passport:hover{
